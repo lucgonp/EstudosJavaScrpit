@@ -1,4 +1,4 @@
-// Criando o objeto que recebe nome e idade
+/*// Criando o objeto que recebe nome e idade
 let obj = {
     nome : "Lucas",
     idade: 29
@@ -7,7 +7,7 @@ let obj = {
 console.log(obj.nome); //Printando o nome
 console.log(obj.idade); //Printando a idade
 
-//Criando o primeiro Array
+Criando o primeiro Array
 const a1 = [1,2,3,4,5];
 
 console.log(a1[4]); //Printando o array pegando o item presente na quarta posição
@@ -52,8 +52,6 @@ console.log("Horario do cafe");
 }else{ //Validação se FALSE
     console.log("Boa tarde");
 }
-
-
-
+*/
 
 
