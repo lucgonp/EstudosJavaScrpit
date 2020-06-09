@@ -1,4 +1,4 @@
-let opcao = 7;
+let opcao = 8;
 let cont = 9;
 
 switch (opcao) {
@@ -62,7 +62,24 @@ switch (opcao) {
         let valorIncial = 0;
         let valorMenor = 7;
         for (valorIncial, valorMenor; valorIncial <= 7; valorIncial++, valorMenor--)
-        console.log(valorIncial + " e " + valorMenor)
+            console.log(valorIncial + " e " + valorMenor)
+        break;
+
+    case 8:
+        let ar1 = [1];
+        for (ar1; ar1 <= 10; ar1++)
+            console.log(ar1);
+        break;
+
+    case 9:
+        let obj1 = {
+            idade = 15
+        }
+        console.log(obj.idade);
+/*
+        for (obj1.idade; obj1.idade < 20; obj1.idade++)
+            console.log(obj.idade)
+            */
         break;
 
     default:
