@@ -1,4 +1,4 @@
-/*// Criando o objeto que recebe nome e idade
+/* // Criando o objeto que recebe nome e idade
 let obj = {
     nome : "Lucas",
     idade: 29
@@ -7,7 +7,7 @@ let obj = {
 console.log(obj.nome); //Printando o nome
 console.log(obj.idade); //Printando a idade
 
-Criando o primeiro Array
+//Criando o primeiro Array
 const a1 = [1,2,3,4,5];
 
 console.log(a1[4]); //Printando o array pegando o item presente na quarta posição
@@ -54,4 +54,37 @@ console.log("Horario do cafe");
 }
 */
 
+const obj = { //Criando o objeto
+    a: 1,
+    b: 2,
+    c: 3,
+    d: 4
+}
+
+for(let o in obj){ //For que percorre todo o objeto criado
+    console.log(obj[o]); //No console será apresentado todas as caracteristicas criadas no objeto
+}
+
+const obj1 = {
+    nome: "Lucas", //Para declarar uma String é necessário utilizar aspas ""
+    sobrenome: "Gontijo",
+    idade: 29
+}
+
+for(let i in obj1){
+    //console.log(i + ": " + obj1[i]);
+    console.log(obj1.nome);
+}
+
+let ary = [1,2,3,4,5,6]; //Criando o array
+         //0,1,2,3,4,5 
+for(let value of ary){ //No For of Loop conseguimos os valores declardos dentro do Array
+    value-=2; //Pega os valores declarados e subtria por -2
+    console.log(value); //mostra os valores do resultado acima -1,0,1,2,3,4
+}
+
+let str = "Lucas"  //Utilizando uma STRING
+for(let nome of str){
+    console.log(nome); //Será apresentado cada letra registrada L/u/c/a/s
+}
 

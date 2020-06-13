@@ -1,4 +1,4 @@
-let opcao = 8;
+let opcao = 10;
 let cont = 9;
 
 switch (opcao) {
@@ -70,17 +70,27 @@ switch (opcao) {
         for (ar1; ar1 <= 10; ar1++)
             console.log(ar1);
         break;
-
+    
     case 9:
         let obj1 = {
-            idade = 15
+            numero: 1
         }
-        console.log(obj.idade);
-/*
-        for (obj1.idade; obj1.idade < 20; obj1.idade++)
-            console.log(obj.idade)
-            */
+
+        for(obj1.numero; obj1.numero <= 10; obj1.numero++)
+        console.log("Valor do objeto é: " + obj1.numero);
         break;
+
+    case 10:
+        let valorFor1 = 0;
+        let segundoValor = 0;
+        
+        for(valorFor1; valorFor1 < 5; valorFor1++){
+            for(segundoValor; segundoValor < 5; segundoValor++){
+                console.log(valorFor1 + " and " + segundoValor);
+            }
+            console.log("\n");
+        }
+        break;    
 
     default:
         console.log("errado");
