@@ -91,9 +91,7 @@ switch (opcao) {
             console.log("\n");
         }
         break;    
-    
-    case 11:
-        break;
+
 
     default:
         console.log("errado");

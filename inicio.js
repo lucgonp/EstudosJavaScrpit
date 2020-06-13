@@ -88,7 +88,3 @@ for(let nome of str){
     console.log(nome); //Será apresentado cada letra registrada L/u/c/a/s
 }
 
-let str = "Lucas"  //Utilizando uma STRING
-for(let nome of str){
-    console.log(nome); //Será apresentado cada letra registrada L/u/c/a/s
-}
