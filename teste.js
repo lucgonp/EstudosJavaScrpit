@@ -9,7 +9,7 @@ for (count; count <= 5; count++) {
     }
 
 }
-*/
+
 
 let ar = [0,1,2];
 
@@ -30,3 +30,25 @@ for(let valor of ar){
 //0 >=2 falso 0+3 = 3
 //1 >=2 falso 1+3 = 4
 //2 >=2 true 2 printa "Valor localizado."
+*/
+
+let objPessoa = {
+    nome: "1",
+    idade: 29,
+
+}
+
+if (objPessoa.idade == null) {
+    objPessoa.idade = 29;
+    console.log(objPessoa.idade)
+} if (objPessoa.nome == "") {
+    objPessoa.nome = "Lucas";
+    console.log(objPessoa.nome)
+} else {
+    let objPessoa1 = {
+        nome: "Teste"
+    }
+    console.log(objPessoa1);
+}
+
+let variavel = "Izequiel Boiola";
