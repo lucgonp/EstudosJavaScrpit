@@ -51,4 +51,3 @@ if (objPessoa.idade == null) {
     console.log(objPessoa1);
 }
 
-let variavel = "Izequiel Boiola";
