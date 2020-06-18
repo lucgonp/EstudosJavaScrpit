@@ -51,3 +51,10 @@ if (objPessoa.idade == null) {
     console.log(objPessoa1);
 }
 
+let arTeste = [1,2,3,4,5,6,7,8,9,10];
+
+for(let totalArray of arTeste){
+    console.log(totalArray)
+}
+
+console.log(`O array possui um total de: ${arTeste.length}`);
