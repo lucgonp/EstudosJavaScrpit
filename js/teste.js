@@ -1,4 +1,3 @@
-/*
 let count = 0;
 
 for (count; count <= 5; count++) {
@@ -30,7 +29,7 @@ for(let valor of ar){
 //0 >=2 falso 0+3 = 3
 //1 >=2 falso 1+3 = 4
 //2 >=2 true 2 printa "Valor localizado."
-*/
+
 
 let objPessoa = {
     nome: "1",
@@ -58,3 +57,4 @@ for(let totalArray of arTeste){
 }
 
 console.log(`O array possui um total de: ${arTeste.length}`);
+
