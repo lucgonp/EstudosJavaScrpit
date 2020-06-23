@@ -32,8 +32,19 @@ console.log(rest);
 /* Utilizando a opção com um array. */
 
 let arry = [10,20,30,40,50,60];
+/*
+([a,b,c] = arry);
 
-([a,b,c,...rest] = arry);
 
 console.log(a);
 console.log(rest);
+*/
+
+if(arry[1] >= 100){
+    ([a,...rest] = arry);
+    console.log(rest);
+}else{
+    ([a,b] = arry);
+    b *= 10;
+    console.log(b)
+}
