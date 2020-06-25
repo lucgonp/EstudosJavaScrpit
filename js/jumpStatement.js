@@ -39,7 +39,7 @@ while (x < 10) {
     }if (x == 7){
         z = sorte(); /** chamando a função sorte */
         continue;
-    }
+    } if (x == 9) break; /** criando um break */
     console.log(x);
 }
 
