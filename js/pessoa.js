@@ -10,3 +10,6 @@ p1.nome = "Lucas";
 p1.idade = 30
 
 console.log(p1);
+
+
+
