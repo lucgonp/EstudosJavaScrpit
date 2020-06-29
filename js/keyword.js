@@ -18,3 +18,11 @@ const obj2 = {
 }
 
 console.log(obj2.aqui + " " + obj2.tester())
+
+const obj3 = {
+    nome: "Lucas",
+    
+}
+
+nomeCompleto = () => { return `${obj3.nome} Gontijo`; }
+console.log(nomeCompleto());
