@@ -31,7 +31,7 @@ console.log("Nessa opção passamos um argumento, onde o valor é: " + a2());
 const a3 = (arg1, arg2) => { arg1 = a; arg2 = b; return a * b; }
 console.log("Nessa opção passamos dois argumentos, onde a multiplicação dos dois valores é igual a: " + a3());
 
-//Utilizando destruction com uma function
+//Utilizando destruction com uma function, a função destruction so pode ser usada em um obj ou um array
 const calc1 = {
     num1: 29,
     num2: 8
