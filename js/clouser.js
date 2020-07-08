@@ -51,4 +51,29 @@ console.log('-----------------------------');
 }
 
 
-console.log(f());
+var nomeEIdade = f();
+
+console.log(nomeEIdade);
+
+{
+    let x = 10;
+
+    f1 = () => { return x; }
+}
+
+var math = f1();
+math += 5;
+console.log(math)
+
+
+console.log('-----------------------------');
+
+let num1 = 5;
+let num2 = 15;
+
+function soma(){
+    return num1 + num2
+}
+
+var result = soma(); 
+console.log(result);
