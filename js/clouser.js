@@ -61,8 +61,7 @@ console.log(nomeEIdade);
     f1 = () => { return x; }
 }
 
-var math = f1();
-math += 5;
+let math = f1() * 15465;
 console.log(math)
 
 
@@ -75,5 +74,5 @@ function soma(){
     return num1 + num2
 }
 
-var result = soma(); 
+let result = soma(); 
 console.log(result);
